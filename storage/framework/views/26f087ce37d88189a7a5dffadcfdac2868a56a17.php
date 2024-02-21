@@ -962,7 +962,7 @@
             </div>
             <div class="col-lg-6 col-sm-12 text-end">
 
-                <p class="text-body">Copyright © 2022 | Design By ERPGo</p>
+                <p class="text-body">2024 © All Rights Reserved | Cooked with ❤️ by Psyber Inc</p>
             </div>
         </div>
     </div>
