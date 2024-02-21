@@ -79,7 +79,7 @@
                     if (t)
                         for (var i = 0; i < t.length; i++) n.push(a("#" + t[i])[0]);
                     else n = [a(this)[0]];
-                    var r = a(this).data("handleclass");
+                    var r = a(this).data("handleclass"); 
                     r ? dragula(n, {
                         moves: function (a, t, n) {
                             return n.classList.contains(r)
