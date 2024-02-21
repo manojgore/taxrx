@@ -16,7 +16,7 @@
 @if (isset($setting['cust_theme_bg']) && $setting['cust_theme_bg'] == 'on')
     <nav class="dash-sidebar light-sidebar transprent-bg">
 @else
-    <nav class="dash-sidebar light-sidebar">
+    <nav class="dash-sidebar light-sidebar"> 
 @endif
     <div class="navbar-wrapper">
         <div class="m-header main-logo">
