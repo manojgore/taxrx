@@ -20112,7 +20112,7 @@ textarea[resize="horizontal"] {
   right: auto;
 }
 
-.navbar-expand .navbar-collapse-fade {
+.navbar-expand .navbar-collapse-fade { 
   z-index: 1050;
   height: auto !important;
   opacity: 0;
