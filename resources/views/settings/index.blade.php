@@ -163,7 +163,7 @@
         $(document).on('change','[name=storage_setting]',function(){
             if($(this).val() == 's3'){
                 $('.s3-setting').removeClass('d-none');
-                $('.wasabi-setting').addClass('d-none');
+                $('.wasabi-setting').addClass('d-none'); 
                 $('.local-setting').addClass('d-none');
             }else if($(this).val() == 'wasabi'){
                 $('.s3-setting').addClass('d-none');
