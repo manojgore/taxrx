@@ -71,7 +71,7 @@
                                             </div>
                                             @endcan
                                             @can('delete assets') 
-                                                <div class="action-btn bg-danger ms-2">
+                                                <div class="action-btn bg-danger ms-2"> 
                                             {!! Form::open(['method' => 'DELETE', 'route' => ['account-assets.destroy', $asset->id],'id'=>'delete-form-'.$asset->id]) !!}
 
                                                 <a href="#" class="mx-3 btn btn-sm align-items-center bs-pass-para" data-bs-toggle="tooltip" title="{{__('Delete')}}" data-original-title="{{__('Delete')}}" data-confirm="{{__('Are You Sure?').'|'.__('This action can not be undone. Do you want to continue?')}}" data-confirm-yes="document.getElementById('delete-form-{{$asset->id}}').submit();">
