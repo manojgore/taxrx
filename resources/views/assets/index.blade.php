@@ -70,7 +70,7 @@
                                             </a>
                                             </div>
                                             @endcan
-                                            @can('delete assets')
+                                            @can('delete assets') 
                                                 <div class="action-btn bg-danger ms-2">
                                             {!! Form::open(['method' => 'DELETE', 'route' => ['account-assets.destroy', $asset->id],'id'=>'delete-form-'.$asset->id]) !!}
 
