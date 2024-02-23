@@ -78,8 +78,8 @@
     @if ($setting['cust_darklayout'] == 'on')
         <link rel="stylesheet" href="{{ asset('assets/css/style-dark.css') }}">
     @else
-        <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" id="main-style-link">
-    @endif
+        <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" id="main-style-link"> 
+    @endif 
     <link rel="stylesheet" href="{{asset('assets/css/customizer.css')}}">
 
     <link rel="stylesheet" href="{{asset('assets/css/landing.css')}}" />
