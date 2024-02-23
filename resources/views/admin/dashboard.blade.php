@@ -440,7 +440,7 @@
                 xaxis: {labels: {style: {colors: SiteStyle.colors.gray[600], fontSize: "14px", fontFamily: SiteStyle.fonts.base, cssClass: "apexcharts-xaxis-label"}}, axisBorder: {show: !1}, axisTicks: {show: !0, borderType: "solid", color: SiteStyle.colors.gray[300], height: 6, offsetX: 0, offsetY: 0}, type: "category", categories: {!! json_encode(array_keys($home_data['timesheet_logged'])) !!}},
                 yaxis: {labels: {style: {color: SiteStyle.colors.gray[600], fontSize: "12px", fontFamily: SiteStyle.fonts.base}}, axisBorder: {show: !1}, axisTicks: {show: !0, borderType: "solid", color: SiteStyle.colors.gray[300], height: 6, offsetX: 0, offsetY: 0}},
                 fill: {type: "solid"},
-                markers: {size: 4, opacity: .7, strokeColor: "#fff", strokeWidth: 3, hover: {size: 7}},
+                markers: {size: 4, opacity: .7, strokeColor: "#fff", strokeWidth: 3, hover: {size: 7}}, 
                 grid: {borderColor: SiteStyle.colors.gray[300], strokeDashArray: 5},
                 dataLabels: {enabled: !1}
             }, a1 = (e1.data().dataset, e1.data().labels, e1.data().color), n1 = e1.data().height;
