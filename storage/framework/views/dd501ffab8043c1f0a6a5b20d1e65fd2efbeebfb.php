@@ -91,7 +91,7 @@
     <div class="container">
         <a class="navbar-brand bg-transparent" href="">
 
-                <img src="<?php echo e($logo .'/logo-light.png'); ?>" alt="logo" width="40%"/>
+                <img src="storage/uploads/logo/logo-light.png" alt="logo" width="40%"/>
 
         </a>
         <button
