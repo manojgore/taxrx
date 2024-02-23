@@ -34,7 +34,7 @@
                                     </thead>
                                     <tbody>
                                     @php
-                                        $modules=['user','language','account'];
+                                        $modules=['user','language','account']; 
                                     @endphp
                                     @foreach($modules as $module)
                                         <tr>
