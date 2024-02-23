@@ -14,7 +14,7 @@
 
     $getseo= App\Models\Utility::getSeoSetting();
     $metatitle =  isset($getseo['meta_title']) ? $getseo['meta_title'] :'';
-    $metsdesc= isset($getseo['meta_desc'])?$getseo['meta_desc']:'';
+    $metsdesc= isset($getseo['meta_desc'])?$getseo['meta_desc']:''; 
     $meta_image = \App\Models\Utility::get_file('uploads/meta/');
     $meta_logo = isset($getseo['meta_image'])?$getseo['meta_image']:'';
     $get_cookie = Utility::getCookieSetting();
