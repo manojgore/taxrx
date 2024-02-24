@@ -27,7 +27,7 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ env('APP_URL') }}">
+    <meta property="og:url" content="{{ env('APP_URL') }}"> 
     <meta property="og:title" content="{{$metatitle}}">
     <meta property="og:description" content="{{$metsdesc}}">
     <meta property="og:image" content="{{$meta_image.$meta_logo}}">
