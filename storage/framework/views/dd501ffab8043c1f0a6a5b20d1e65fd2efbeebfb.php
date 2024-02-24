@@ -78,8 +78,8 @@
     <?php if($setting['cust_darklayout'] == 'on'): ?>
         <link rel="stylesheet" href="<?php echo e(asset('assets/css/style-dark.css')); ?>">
     <?php else: ?>
-        <link rel="stylesheet" href="<?php echo e(asset('assets/css/style.css')); ?>" id="main-style-link">
-    <?php endif; ?>
+        <link rel="stylesheet" href="<?php echo e(asset('assets/css/style.css')); ?>" id="main-style-link"> 
+    <?php endif; ?> 
     <link rel="stylesheet" href="<?php echo e(asset('assets/css/customizer.css')); ?>">
 
     <link rel="stylesheet" href="<?php echo e(asset('assets/css/landing.css')); ?>" />
@@ -91,7 +91,7 @@
     <div class="container">
         <a class="navbar-brand bg-transparent" href="">
 
-                <img src="storage/uploads/logo/logo-light.png" alt="logo" width="40%"/>
+                <img src="<?php echo e($logo .'/logo-light.png'); ?>" alt="logo" width="40%"/>
 
         </a>
         <button
