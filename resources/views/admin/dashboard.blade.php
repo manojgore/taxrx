@@ -210,7 +210,7 @@
                                 <th scope="col" class="sort" data-sort="budget">{{__('Project')}}</th>
                                 <th scope="col" class="sort" data-sort="status">{{__('Stage')}}</th>
                                 <th scope="col" class="sort" data-sort="completion">{{__('Completion')}}</th>
-                            </tr>
+                            </tr> 
                             </thead>
                             <tbody class="list">
                             @foreach($home_data['due_tasks'] as $due_task)
