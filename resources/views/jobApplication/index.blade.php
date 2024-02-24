@@ -267,7 +267,7 @@
                                         <div class="card-body">
                                             <div class="d-flex align-items-center justify-content-between">
                                                 <ul class="list-inline mb-0 mt-0">
-                                                    <div class="row align-items-center">
+                                                    <div class="row align-items-center"> 
                                                         <div class="col-md-12">
                                                             <span class="static-rating static-rating-sm d-block">
                                                             @for($i=1; $i<=5; $i++)
