@@ -82,7 +82,7 @@
     @endif 
     <link rel="stylesheet" href="{{asset('assets/css/customizer.css')}}">
 
-    <link rel="stylesheet" href="{{asset('assets/css/landing.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/landing.css')}}"/> 
 </head>
 
 <body class="{{$color}}">
