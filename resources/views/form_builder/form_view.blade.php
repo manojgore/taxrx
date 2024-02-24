@@ -72,7 +72,7 @@
             <div class="w-100">
                 <div class="row justify-content-center">
                     <div class="col-sm-8 col-lg-5">
-                        <div class="row justify-content-center mb-3">
+                        <div class="row justify-content-center mb-3"> 
                             <a class="navbar-brand" href="#">
                                 <img src="{{asset(Storage::url('uploads/logo/logo-dark.png'))}}" class="navbar-brand-img big-logo">
                             </a>
