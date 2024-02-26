@@ -53,7 +53,7 @@
 @endif
 @if($message = Session::get('error'))
     <script>
-        show_toastr('error', '{!! $message !!}');
+        show_toastr('error', '{!! $message !!}'); 
     </script>
 @endif
 @if($get_cookie['enable_cookie'] == 'on')
