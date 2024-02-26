@@ -199,7 +199,7 @@
             e.preventDefault();
             var title = $(this).attr('data-title');
             var size = 'md';
-            var url = $(this).attr('data-url');
+            var url = $(this).attr('data-url'); 
 
             if (typeof url != 'undefined') {
                 $("#commonModal .modal-title").html(title);
