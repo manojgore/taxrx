@@ -60,7 +60,7 @@
                                     <td class="font-style">{{ \Auth::user()->dateFormat($asset->purchase_date) }}</td>
                                     <td class="font-style">{{ \Auth::user()->dateFormat($asset->supported_date) }}</td>
                                     <td class="font-style">{{ \Auth::user()->priceFormat($asset->amount) }}</td>
-                                    <td class="font-style">{{ !empty($asset->description)?$asset->description:'-' }}</td>
+                                    <td class="font-style">{{ !empty($asset->description)?$asset->description:'-' }}</td> 
                                     <td class="Action">
                                         <span>
                                         @can('edit assets')
