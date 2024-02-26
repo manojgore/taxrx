@@ -123,7 +123,7 @@
                     <a class="nav-link" href="#pricing">Pricing</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#faq">Faq</a>
+                    <a class="nav-link" href="#faq">Faq</a> 
                 </li>
                 <li class="nav-item">
                     <a class="btn btn-light ms-2 me-1" href="{{ route('login') }}">{{__('Login')}}</a>
