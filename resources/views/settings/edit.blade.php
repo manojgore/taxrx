@@ -68,7 +68,7 @@
                                                     @if($key = array_search('delete '.$module,$permissions))
                                                         <div class="form-check form-check-inline">
                                                             {{Form::checkbox('permissions[]',$key,$role->permission, ['id' =>'permission'.$key])}}
-                                                            {{Form::label('permission'.$key,'Delete')}}<br>
+                                                            {{Form::label('permission'.$key,'Delete')}}<br> 
                                                         </div>
                                                     @endif
                                                 @endif
