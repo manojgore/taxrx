@@ -92,7 +92,7 @@
 
                     </div>
                     <div class="apply-job-form">
-                        <h2 class="mb-4">{{__('Apply for this job')}}</h2>
+                        <h2 class="mb-4">{{__('Apply for this job')}}</h2> 
                         {{Form::open(array('route'=>array('job.apply.data',$job->code),'method'=>'post', 'enctype' => "multipart/form-data"))}}
 
                         <div class="row">
