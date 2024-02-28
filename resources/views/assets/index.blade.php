@@ -77,7 +77,7 @@
                                                 <a href="#" class="mx-3 btn btn-sm align-items-center bs-pass-para" data-bs-toggle="tooltip" title="{{__('Delete')}}" data-original-title="{{__('Delete')}}" data-confirm="{{__('Are You Sure?').'|'.__('This action can not be undone. Do you want to continue?')}}" data-confirm-yes="document.getElementById('delete-form-{{$asset->id}}').submit();">
                                                     <i class="ti ti-trash text-white text-white"></i>
                                                 </a>
-                                                {!! Form::close() !!}
+                                                {!! Form::close() !!} 
                                                     @endcan
                                             </div>
                                         </span>
