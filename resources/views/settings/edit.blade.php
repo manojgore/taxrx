@@ -89,7 +89,7 @@
                         {{Form::submit(__('Update'),array('class'=>'btn btn-primary'))}}
                         <a href="{{ route('roles.index') }}" class="btn btn-danger">{{__('Cancel')}} </a>
                     </div>
-                    {{Form::close()}}
+                    {{Form::close()}} 
 
                 </div>
             </div>
