@@ -115,7 +115,7 @@
                                             @endif
                                         @endforeach
                                     @endif
-                                    <div class="mt-4 text-end">
+                                    <div class="mt-4 text-end"> 
 
                                         {{Form::submit(__('Submit'),array('class'=>'btn btn-primary'))}}
                                     </div>
