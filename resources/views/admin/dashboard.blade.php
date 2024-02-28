@@ -338,7 +338,7 @@
         <script>
             /*To-Do Module*/
             $(document).on('click', '#todo_submit', function () {
-                var title = $("#form-todo input[name=title]").val();
+                var title = $("#form-todo input[name=title]").val(); 
                 if (title != '') {
                     $.ajax({
                         url: $("#form-todo").data('action'),
