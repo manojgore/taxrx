@@ -259,7 +259,7 @@
             </div>
         </div>
         <img
-            src="{{asset('landing/images/dashboard.png')}}"
+            src="{{asset('landing/images/dashboard.png')}}" 
             alt=""
             class="img-fluid img-dashboard wow animate__fadeInUp mt-5"  style='border-radius: 15px;'
             data-wow-delay="0.2s"
