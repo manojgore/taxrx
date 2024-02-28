@@ -265,7 +265,7 @@
                 $("#cookie_logging").attr('checked', true);
             } else {
                 $('.cookieDiv').addClass('disabledCookie');
-                $("#cookie_logging").attr('checked', false);
+                $("#cookie_logging").attr('checked', false); 
             }
         }
     </script>
