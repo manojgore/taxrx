@@ -87,7 +87,7 @@
                             @endforeach
                         </div>
                         @if(!empty($job->branches)?$job->branches->name:'')
-                            <p> <i class="ti ti-map-pin ms-1"></i> {{!empty($job->branches)?$job->branches->name:''}}</p>
+                            <p> <i class="ti ti-map-pin ms-1"></i> {{!empty($job->branches)?$job->branches->name:''}}</p> 
                         @endif
 
                     </div>
