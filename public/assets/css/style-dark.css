@@ -4576,7 +4576,7 @@ textarea.is-invalid.dataTable-input {
 .navbar-toggler:focus {
     text-decoration: none;
     outline: 0;
-    box-shadow: 0 0 0 0.2rem;
+    box-shadow: 0 0 0 0.2rem; 
 }
 
 .navbar-toggler-icon {
