@@ -82,7 +82,7 @@
     <?php endif; ?> 
     <link rel="stylesheet" href="<?php echo e(asset('assets/css/customizer.css')); ?>">
 
-    <link rel="stylesheet" href="<?php echo e(asset('assets/css/landing.css')); ?>" />
+    <link rel="stylesheet" href="<?php echo e(asset('assets/css/landing.css')); ?>"/> 
 </head>
 
 <body class="<?php echo e($color); ?>">
@@ -123,7 +123,7 @@
                     <a class="nav-link" href="#pricing">Pricing</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#faq">Faq</a>
+                    <a class="nav-link" href="#faq">Faq</a> 
                 </li>
                 <li class="nav-item">
                     <a class="btn btn-light ms-2 me-1" href="<?php echo e(route('login')); ?>"><?php echo e(__('Login')); ?></a>
@@ -261,7 +261,7 @@
             </div>
         </div>
         <img
-            src="<?php echo e(asset('landing/images/dashboard.png')); ?>"
+            src="<?php echo e(asset('landing/images/dashboard.png')); ?>" 
             alt=""
             class="img-fluid img-dashboard wow animate__fadeInUp mt-5"  style='border-radius: 15px;'
             data-wow-delay="0.2s"
