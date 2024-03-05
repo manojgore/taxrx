@@ -87,7 +87,7 @@
 <body class="{{ $color }}">
 <header class="header header-transparent" id="header-main">
 
-</header>
+</header> 
 
 <div class="main-content container">
     <div class="row justify-content-between align-items-center mb-3">
