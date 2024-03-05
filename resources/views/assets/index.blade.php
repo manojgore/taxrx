@@ -81,7 +81,7 @@
                                                     @endcan
                                             </div>
                                         </span>
-                                    </td>
+                                    </td> 
                                 </tr>
                             @endforeach
                             </tbody>
