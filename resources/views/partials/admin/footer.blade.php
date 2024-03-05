@@ -98,7 +98,7 @@
     function removeClassByPrefix(node, prefix) {
         for (let i = 0; i < node.classList.length; i++) {
             let value = node.classList[i];
-            if (value.startsWith(prefix)) {
+            if (value.startsWith(prefix)) { 
                 node.classList.remove(value); 
             }
         }
