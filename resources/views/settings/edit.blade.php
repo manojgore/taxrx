@@ -61,7 +61,7 @@
                                                         <div class="form-check form-check-inline">
                                                             {{Form::checkbox('permissions[]',$key,$role->permission, ['id' =>'permission'.$key])}}
                                                             {{Form::label('permission'.$key,'Edit')}}<br>
-                                                        </div>
+                                                        </div> 
                                                     @endif
                                                 @endif
                                                 @if(in_array('delete '.$module,(array) $permissions))
