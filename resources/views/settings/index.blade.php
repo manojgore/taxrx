@@ -268,7 +268,7 @@
                 $("#cookie_logging").attr('checked', false); 
             }
         }
-    </script>
+    </script> 
 
 @endpush
 
