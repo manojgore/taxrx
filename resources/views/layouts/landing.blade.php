@@ -318,7 +318,7 @@
                 </h1>
                 <h2 class="mb-sm-4 wow animate__fadeInRight" data-wow-delay="0.4s">
                     {{__('All In One Business ERP With Project, Account, HRM, CRM')}}
-                </h2>
+                </h2> 
                 <p class="mb-sm-4 wow animate__fadeInRight" data-wow-delay="0.6s">
                     Use these awesome forms to login or create new account in your
                     project for free.
