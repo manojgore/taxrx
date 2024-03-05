@@ -451,6 +451,6 @@
                 i.render()
                 o1.render()
             }, 300);
-        </script>
+        </script> 
     @endif
 @endpush
