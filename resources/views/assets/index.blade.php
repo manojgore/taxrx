@@ -28,7 +28,7 @@
                 <div class="card-body table-border-style">
                     <div class="table-responsive">
                         <table class="table datatable">
-                            <thead>
+                            <thead> 
                             <tr>
                                 <th>{{__('Name')}}</th>
                                 <th>{{__('Users')}}</th>
