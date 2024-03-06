@@ -8,7 +8,7 @@
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-header">
-                        <h4>{{__('Update Role')}} </h4>
+                        <h4>{{__('Update Role')}} </h4> 
                     </div>
 
                     {{Form::model($role,array('route' => array('roles.update', $role->id), 'method' => 'PUT')) }}
