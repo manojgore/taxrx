@@ -53,7 +53,7 @@
 <!-- Calendar-->@stack('css-page')
     <link rel="stylesheet" href="{{ asset('assets/css/plugins/main.css') }}">
 
-    <link rel="stylesheet" href="{{ asset('assets/css/plugins/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/plugins/style.css') }}"> 
     <link rel="stylesheet" href="{{ asset('assets/css/plugins/flatpickr.min.css') }}">
 
     <link rel="stylesheet" href="{{ asset('assets/css/plugins/animate.min.css') }}">
