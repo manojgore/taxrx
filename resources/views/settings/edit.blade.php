@@ -45,7 +45,7 @@
                                                         <div class="form-check form-check-inline">
                                                             {{Form::checkbox('permissions[]',$key,$role->permission, ['id' =>'permission'.$key])}} 
                                                             {{Form::label('permission'.$key,'Manage')}}<br>
-                                                        </div>
+                                                        </div> 
                                                     @endif
                                                 @endif
                                                 @if(in_array('create '.$module,(array) $permissions))
