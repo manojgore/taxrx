@@ -256,7 +256,7 @@
                              alt="" class="img-fluid">
                     @endif
                 </div>
-            </div>
+            </div> 
         </div>
         <img
             src="{{asset('landing/images/dashboard.png')}}" 
