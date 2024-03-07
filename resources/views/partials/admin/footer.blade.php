@@ -43,7 +43,7 @@
 <script>
     var site_currency_symbol_position = '{{ \App\Models\Utility::getValByName('site_currency_symbol_position') }}';
     var site_currency_symbol = '{{ \App\Models\Utility::getValByName('site_currency_symbol') }}';
-</script>
+</script> 
 <script src="{{ asset('js/custom.js') }}"></script>
 
 @if($message = Session::get('success'))
