@@ -216,7 +216,7 @@
                         <img src="{{ $logo . '/' . (isset($company_logo) && !empty($company_logo) ? $company_logo : 'logo-dark.png') }}"
                              alt="" class="img-fluid">
                     @endif
-                </div> 
+                </div>  
             </div>
             <div class="col-lg-2">
                 <div class="wow animate__fadeInRight mobile-widget" data-wow-delay="0.6s">
