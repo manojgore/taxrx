@@ -626,7 +626,7 @@
                                                 </span>
                                             @enderror
                                         </div>
-                                    </div>
+                                    </div> 
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             {{ Form::label('mail_encryption', __('Mail Encryption'), ['class' => 'form-label']) }}
