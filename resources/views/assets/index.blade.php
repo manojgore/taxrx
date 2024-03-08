@@ -68,7 +68,7 @@
                                                 <a href="#" class="mx-3 btn btn-sm align-items-center" data-url="{{ route('account-assets.edit',$asset->id) }}" data-ajax-popup="true" data-size="lg" data-title="{{__('Edit Assets')}}" data-bs-toggle="tooltip" title="{{__('Edit')}}" data-original-title="{{__('Edit')}}">
                                                 <i class="ti ti-pencil text-white"></i>
                                             </a>
-                                            </div>
+                                            </div> 
                                             @endcan
                                             @can('delete assets') 
                                                 <div class="action-btn bg-danger ms-2"> 
