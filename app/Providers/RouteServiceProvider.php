@@ -54,7 +54,7 @@ class RouteServiceProvider extends ServiceProvider
     /**
      * Configure the rate limiters for the application.
      *
-     * @return void
+     * @return void 
      */
     protected function configureRateLimiting()
     {
