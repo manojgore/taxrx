@@ -95,7 +95,7 @@
                         <h2 class="mb-4">{{__('Apply for this job')}}</h2> 
                         {{Form::open(array('route'=>array('job.apply.data',$job->code),'method'=>'post', 'enctype' => "multipart/form-data"))}}
 
-                        <div class="row">
+                        <div class="row"> 
                             <div class="col-md-6">
                                     <div class="form-group">
                                         {{Form::label('name',__('Name'),['class'=>'form-label'])}}
