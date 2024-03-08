@@ -119,7 +119,7 @@
 
                                         {{Form::submit(__('Submit'),array('class'=>'btn btn-primary'))}}
                                     </div>
-                                </div>
+                                </div> 
 
                                 {{Form::close()}}
                             @else
