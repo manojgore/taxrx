@@ -104,7 +104,7 @@
             <div class="card">
                 <div class="card-body">
                     <div class="invoice">
-                        <div class="invoice-print">
+                        <div class="invoice-print"> 
                             <div class="row invoice-title mt-2">
                                 <div class="col-xs-12 col-sm-12 col-nd-6 col-lg-6 col-12">
                                     <h2>{{__('Bill')}}</h2>
