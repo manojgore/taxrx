@@ -26,7 +26,7 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-body table-border-style">
-                    <div class="table-responsive">
+                    <div class="table-responsive"> 
                         <table class="table datatable">
                             <thead> 
                             <tr>
