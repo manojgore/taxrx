@@ -308,7 +308,7 @@
                     class="img-fluid header-img wow animate__fadeInLeft"
                     data-wow-delay="0.2s"
                 />
-            </div>
+            </div> 
             <div class="col-sm-4">
                 <h1
                     class="mb-sm-4 f-w-600 wow animate__fadeInRight"
