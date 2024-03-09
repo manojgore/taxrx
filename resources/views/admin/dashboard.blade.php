@@ -185,7 +185,7 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <div class="card card-fluid">
+                <div class="card card-fluid"> 
                     <div class="card-header">
                         <h6 class="mb-0">{{__('Timesheet Logged Hours')}}</h6>
                         <small class="text-muted">{{__('Last 7 days')}}</small>
