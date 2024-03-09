@@ -707,7 +707,7 @@
                                                     <a href="https://stripe.com/docs/currencies"
                                                        target="_blank">{{ __('You can find out how to do that here.') }}</a>
                                                 </small>
-                                            </div>
+                                            </div> 
                                             <div class="col-md-6 form-group">
                                                 <label for="currency_symbol"
                                                        class="col-form-label">{{ __('Currency Symbol') }}</label>
