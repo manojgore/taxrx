@@ -2834,7 +2834,7 @@ class Utility extends Model
 
     }
 
-    public static function GetLogo()
+    public static function GetLogo() 
     {
         $setting = Utility::colorset();
 
