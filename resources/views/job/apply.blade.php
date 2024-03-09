@@ -134,7 +134,7 @@
                                             <input type="radio" id="g_female" value="Female" name="gender" class="custom-control-input">
                                             <label class="custom-control-label" for="g_female">{{__('Female')}}</label>
                                         </div>
-                                    </div>
+                                    </div> 
                                 </div>
                             @endif
 
