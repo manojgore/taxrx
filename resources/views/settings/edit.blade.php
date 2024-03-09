@@ -58,7 +58,7 @@
                                                 @endif
                                                 @if(in_array('edit '.$module,(array) $permissions))
                                                     @if($key = array_search('edit '.$module,$permissions))
-                                                        <div class="form-check form-check-inline">
+                                                        <div class="form-check form-check-inline"> 
                                                             {{Form::checkbox('permissions[]',$key,$role->permission, ['id' =>'permission'.$key])}}
                                                             {{Form::label('permission'.$key,'Edit')}}<br>
                                                         </div> 
