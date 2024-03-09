@@ -9,7 +9,7 @@
         <div class="py-1">
             <span class="text-muted">  {{(Utility::getValByName('footer_text')) ? Utility::getValByName('footer_text') :  __('Copyright ERPGO') }} {{ date('Y') }}</span>
         </div>
-    </div>
+    </div> 
 </footer>
 
 
