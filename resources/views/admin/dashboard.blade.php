@@ -213,7 +213,7 @@
                             </tr> 
                             </thead>
                             <tbody class="list">
-                            @foreach($home_data['due_tasks'] as $due_task)
+                            @foreach($home_data['due_tasks'] as $due_task) 
                                 <tr>
                                     <th scope="row">
                                         <div class="media align-items-center">
