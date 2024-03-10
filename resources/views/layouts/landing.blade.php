@@ -346,7 +346,7 @@
                     Use these awesome forms to login or create new account in your
                     project for free.
                 </p>
-            </div>
+            </div> 
         </div>
         <div class="row justify-content-center">
             <div class="col-lg-3 col-md-6">
