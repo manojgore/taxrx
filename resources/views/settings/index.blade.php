@@ -755,7 +755,7 @@
                                                                                     @if ($errors->has('stripe_key'))
                                                                                         <span class="invalid-feedback d-block">
                                                                                             {{ $errors->first('stripe_key') }}
-                                                                                        </span>
+                                                                                        </span> 
                                                                                     @endif
                                                                                 </div>
                                                                             </div>
