@@ -137,6 +137,6 @@
         @include('layouts.cookie_consent')
     @endif
 
-</body>
+</body> 
 
 </html>
