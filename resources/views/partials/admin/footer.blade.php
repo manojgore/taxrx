@@ -84,7 +84,7 @@
         var c = themescolors[h];
 
         c.addEventListener("click", function (event) {
-            var targetElement = event.target;
+            var targetElement = event.target; 
             if (targetElement.tagName == "SPAN") {
                 targetElement = targetElement.parentNode;
             }
