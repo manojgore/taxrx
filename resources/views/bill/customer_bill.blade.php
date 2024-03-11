@@ -144,7 +144,7 @@
                                             {{!empty($vendor->billing_zip)?$vendor->billing_zip:''}}<br>
                                             {{!empty($vendor->billing_city)?$vendor->billing_city:'' .', '}} {{!empty($vendor->billing_state)?$vendor->billing_state:'',', '}} {{!empty($vendor->billing_country)?$vendor->billing_country:''}}
                                         </small>
-                                    </div>
+                                    </div> 
                                 @endif
                                 @if(\Utility::getValByName('shipping_display')=='on')
                                     <div class="col">
