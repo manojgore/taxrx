@@ -240,7 +240,7 @@
                         </table>
                     </div>
                 </div> 
-            </div>
+            </div> 
             <div class="col-xl-4 col-md-4">
                 <div class="card">
                     <div class="card-header">
