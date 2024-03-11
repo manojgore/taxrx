@@ -119,7 +119,7 @@
                                     <div class="form-group">
                                         {!! Form::label('dob', __('Date of Birth'),['class'=>'form-label']) !!}
                                         {!! Form::date('dob', old('dob'), ['class' => 'form-control datepicker w-100','required'=>'required']) !!}
-                                    </div>
+                                    </div> 
                                 @endif
                             </div>
                             @if(!empty($job->applicant) && in_array('gender',explode(',',$job->applicant)))
