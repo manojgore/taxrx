@@ -83,7 +83,7 @@
                             <strong class="text-danger">{{ $message }}</strong>
                         </span>
                             @enderror
-                        </div>
+                        </div> 
                     </div>
                     <div class="card-footer">
                         {{Form::submit(__('Update'),array('class'=>'btn btn-primary'))}}
