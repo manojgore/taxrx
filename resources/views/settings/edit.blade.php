@@ -81,7 +81,7 @@
                             @error('permissions')
                             <span class="invalid-permissions" role="alert">
                             <strong class="text-danger">{{ $message }}</strong>
-                        </span>
+                        </span> 
                             @enderror
                         </div> 
                     </div>
