@@ -920,7 +920,7 @@
                                                                                            class="form-control"
                                                                                            value="{{ isset($admin_payment_setting['paystack_secret_key']) ? $admin_payment_setting['paystack_secret_key'] : '' }}"
                                                                                            placeholder="{{ __('Secret Key') }}" />
-                                                                                </div>
+                                                                                </div> 
                                                                             </div>
                                                                         </div>
                                                                     </div>
