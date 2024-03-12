@@ -68,7 +68,7 @@
     feather.replace();
     var pctoggle = document.querySelector("#pct-toggler");
     if (pctoggle) {
-        pctoggle.addEventListener("click", function () {
+        pctoggle.addEventListener("click", function () { 
             if (
                 !document.querySelector(".pct-customizer").classList.contains("active")
             ) {
