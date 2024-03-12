@@ -967,7 +967,7 @@
                                                                                            class="form-control"
                                                                                            value="{{ isset($admin_payment_setting['flutterwave_public_key']) ? $admin_payment_setting['flutterwave_public_key'] : '' }}"
                                                                                            placeholder="Public Key">
-                                                                                </div>
+                                                                                </div> 
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-lg-6">
