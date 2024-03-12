@@ -149,7 +149,7 @@
                                 @if(\Utility::getValByName('shipping_display')=='on')
                                     <div class="col">
                                         <small>
-                                            <strong>{{__('Shipped To')}} :</strong><br>
+                                            <strong>{{__('Shipped To')}} :</strong><br> 
                                             {{!empty($vendor->shipping_name)?$vendor->shipping_name:''}}<br>
                                             {{!empty($vendor->shipping_phone)?$vendor->shipping_phone:''}}<br>
                                             {{!empty($vendor->shipping_address)?$vendor->shipping_address:''}}<br>
