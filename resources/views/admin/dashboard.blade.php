@@ -177,7 +177,7 @@
                                         <h6 class="text-center mb-0">{{__('No Due Projects Found.')}}</h6>
                                     </div>
                                 @endif
-                            </div>
+                            </div> 
                         </div>
                     </div>
                 </div>
