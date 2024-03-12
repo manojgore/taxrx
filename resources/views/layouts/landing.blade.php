@@ -410,7 +410,7 @@
                             <i class="ti ti-users"></i>
                         </div>
                         <h6 class="text-muted mt-4">ABOUT</h6>
-                        <h4 class="my-3 f-w-600">Feature</h4>
+                        <h4 class="my-3 f-w-600">Feature</h4> 
                         <p class="mb-0">
                             Use these awesome forms to login or create new account in your
                             project for free.
