@@ -63,7 +63,7 @@
 
 @stack('old-datatable-js')
 
-<script>
+<script> 
 
     feather.replace();
     var pctoggle = document.querySelector("#pct-toggler");
