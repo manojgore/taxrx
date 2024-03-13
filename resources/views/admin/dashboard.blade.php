@@ -222,7 +222,7 @@
                                             </div>
                                         </div>
                                     </th>
-                                    <td class="budget">{{$due_task->project->name}}</td>
+                                    <td class="budget">{{$due_task->project->name}}</td> 
                                     <td>
                                     <span class="badge badge-dot mr-4">
                                         <i class="bg-{{ \App\Models\ProjectTask::$priority_color[$due_task->priority] }}"></i>
