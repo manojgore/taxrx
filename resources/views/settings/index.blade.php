@@ -997,7 +997,7 @@
                                                                         aria-expanded="false" aria-controls="collapseFive">
                                                                     <span class="d-flex align-items-center">
                                                                         {{ __('Razorpay') }}
-                                                                    </span>
+                                                                    </span> 
                                                                     <div class="d-flex align-items-center">
                                                                         <span class="me-2">{{__('Enable')}}:</span>
                                                                         <div class="form-check form-switch custom-switch-v1">
