@@ -72,7 +72,7 @@
                                                         </div> 
                                                     @endif
                                                 @endif
-                                            </td>
+                                            </td> 
                                         </tr>
                                     @endforeach
                                     </tbody>
