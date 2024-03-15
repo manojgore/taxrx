@@ -30,7 +30,7 @@
                 {{Form::text('tax_number',null,array('class'=>'form-control'))}}
 
             </div>
-        </div>
+        </div> 
         @if(!$customFields->isEmpty())
             <div class="col-lg-4 col-md-4 col-sm-6">
                 <div class="tab-pane fade show" id="tab-2" role="tabpanel">
