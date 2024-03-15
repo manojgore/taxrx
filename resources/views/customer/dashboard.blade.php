@@ -5,7 +5,7 @@
 {{--{{dd($invoiceChartData['data'])}}--}}
 @push('script-page')
     <script>
-        var options = {
+        var options = { 
             series: [
                 {
                     name: "{{__('Unpaid')}}",
