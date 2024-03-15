@@ -37,7 +37,7 @@ $profile=\App\Models\Utility::get_file('uploads/avatar/');
                             </li>
                             <li class="annual-billing">
                                 <a data-toggle="tab" href="#change-password" class="">{{__('Change Password')}}</span> </a>
-                            </li>
+                            </li> 
                         </ul>
                         <div class="tab-content">
                             <div id="personal-info" class="tab-pane in active">
