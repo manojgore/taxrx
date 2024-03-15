@@ -9,7 +9,7 @@
             <strong class="text-danger">{{ $message }}</strong>
         </span>
             @enderror
-        </div>
+        </div> 
     </div>
     <div class="col-md-12 px-0">
         <input type="submit" value="{{__('Create')}}" class="btn-create badge-blue">
