@@ -50,7 +50,7 @@
                     <p class="card-text mb-0">{{$customer['contact']}}</p>
                 </div>
             </div>
-        </div>
+        </div> 
 
         <div class="col-md-4 col-lg-4 col-xl-4">
             <div class="card customer-detail-box customer_card">
