@@ -11,7 +11,7 @@
         @can('create constant tax')
             <a href="#" data-url="{{ route('taxes.create') }}" data-ajax-popup="true" data-title="{{__('Create Tax Rate')}}" data-bs-toggle="tooltip" title="{{__('Create')}}"  class="btn btn-sm btn-primary">
                 <i class="ti ti-plus"></i>
-            </a>
+            </a> 
         @endcan
     </div>
 @endsection
