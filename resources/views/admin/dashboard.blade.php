@@ -13,7 +13,7 @@
                 </div>
                 <input type="text" id="keyword" class="form-control form-control-flush" placeholder="{{__('Search by Name or skill')}}">
             </div>
-        </div>
+        </div> 
     @endif
 @endsection
 
