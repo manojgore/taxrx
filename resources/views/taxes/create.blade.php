@@ -9,7 +9,7 @@
                 <strong class="text-danger">{{ $message }}</strong>
             </small>
             @enderror
-        </div>
+        </div> 
         <div class="form-group col-md-6">
             {{ Form::label('rate', __('Tax Rate %'),['class'=>'form-label']) }}
             {{ Form::number('rate', '', array('class' => 'form-control','required'=>'required','step'=>'0.01')) }}

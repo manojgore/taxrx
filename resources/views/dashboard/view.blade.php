@@ -10,7 +10,7 @@
                         <p>{{ $user->name }}</p>
                     </h5>
                     <p class="d-block text-sm text-muted mb-3">{{ $user->email }}</p>
-                </div>
+                </div> 
                 <div class="card-body border-top">
                     <div class="row justify-content-between align-items-center">
                         <div class="col-6 text-center">
@@ -24,7 +24,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
     @endforeach
 @else
     <div class="col-xl-12 col-lg-12 col-sm-12">
