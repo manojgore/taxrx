@@ -47,7 +47,7 @@
                                 <th> {{__('Category')}}</th>
                                 <th> {{__('Description')}}</th>
                             </tr>
-                            </thead>
+                            </thead> 
                             <tbody>
                             @foreach ($payments as $payment)
 
