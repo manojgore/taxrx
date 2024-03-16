@@ -80,7 +80,7 @@
         };
         var chart = new ApexCharts(document.querySelector("#chart-sales"), options);
         chart.render();
-    </script>
+    </script> 
 @endpush
 @section('content')
     <div class="row">
