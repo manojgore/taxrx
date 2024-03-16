@@ -52,7 +52,7 @@
                             },
                             eventResize: function (event) {
                                 var eventObj = {
-                                    start: event.start.format(),
+                                    start: event.start.format(), 
                                     end: event.end.format(),
                                 };
                             },
