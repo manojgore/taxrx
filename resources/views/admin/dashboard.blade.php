@@ -41,7 +41,7 @@
                                 <div class="progress-circle progress-sm" data-progress="{{ $home_data['total_project']['percentage'] }}" data-text="{{ $home_data['total_project']['percentage'] }}%" data-color="primary"></div>
                             </div>
                         </div>
-                    </div>
+                    </div> 
                 </div>
             </div>
             <div class="col-xl-3 col-md-6">
