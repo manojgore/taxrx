@@ -38,7 +38,7 @@ $profile=\App\Models\Utility::get_file('uploads/avatar/');
             <i class="ti ti-plus"></i>
         </a>
     </div>
-@endsection
+@endsection 
 
 @section('content')
 
