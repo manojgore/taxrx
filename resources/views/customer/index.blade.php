@@ -70,7 +70,7 @@ $profile=\App\Models\Utility::get_file('uploads/avatar/');
                                         @else
                                             <a href="#" class="btn btn-outline-primary">
                                                 {{ AUth::user()->customerNumberFormat($customer['customer_id']) }}
-                                            </a> 
+                                            </a>  
                                         @endcan
                                     </td>
                                     <td class="font-style">{{$customer['name']}}</td>
