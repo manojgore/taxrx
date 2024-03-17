@@ -61,7 +61,7 @@
                     <p class="card-text mb-0">{{$customer['billing_city'].', '. $customer['billing_state'] .', '.$customer['billing_zip']}}</p>
                     <p class="card-text mb-0">{{$customer['billing_country']}}</p>
                     <p class="card-text mb-0">{{$customer['billing_phone']}}</p>
-                </div>
+                </div> 
             </div>
 
         </div> 
