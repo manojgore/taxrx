@@ -101,7 +101,7 @@
                                                 <div>
                                                     <span class="font-weight-bold text-danger">{{__('Unpaid')}}</span>
                                                 </div>
-                                                <div>
+                                                <div> 
                                                     {{$invoiceChartData['progressData']['totalInvoice'] .'/'.$invoiceChartData['progressData']['totalUnpaidInvoice']}}
                                                 </div>
                                             </div>
