@@ -59,7 +59,7 @@ $profile=\App\Models\Utility::get_file('uploads/avatar/');
                                 <th>{{__('Action')}}</th>
                             </tr>
                             </thead>
-                            <tbody>
+                            <tbody> 
                             @foreach ($customers as $k=>$customer)
                                 <tr class="cust_tr" id="cust_detail" data-url="{{route('customer.show',$customer['id'])}}" data-id="{{$customer['id']}}">
                                     <td class="Id">
