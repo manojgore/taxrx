@@ -148,7 +148,7 @@
                     {{Form::label('shipping_country',__('Country'),array('class'=>'form-label')) }}
                     {{Form::text('shipping_country',null,array('class'=>'form-control'))}}
 
-                </div>
+                </div> 
             </div>
 
 
