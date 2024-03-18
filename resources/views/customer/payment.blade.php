@@ -48,7 +48,7 @@
                                 <th> {{__('Description')}}</th>
                             </tr>
                             </thead> 
-                            <tbody>
+                            <tbody> 
                             @foreach ($payments as $payment)
 
                                 <tr>
