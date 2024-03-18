@@ -31,7 +31,7 @@
         <div class="card">
             <div class="card-body">
                 <h6 class="text-center mb-0">{{__('No User Found.')}}</h6>
-            </div>
+            </div> 
         </div>
     </div>
 @endif
