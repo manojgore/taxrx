@@ -4,7 +4,7 @@
     {{__('Project Dashboard')}}
 @endsection
 
-@section('action-button')
+@section('action-button') 
     @if(Auth::user()->type == 'admin')
         <div class="bg-neutral rounded-pill d-inline-block">
             <div class="input-group input-group-sm input-group-merge input-group-flush">
