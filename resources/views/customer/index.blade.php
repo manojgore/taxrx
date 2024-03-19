@@ -106,7 +106,7 @@ $profile=\App\Models\Utility::get_file('uploads/avatar/');
                                                     </div>
                                                 @endcan
                                             @endif
-                                        </span>
+                                        </span> 
                                     </td>
                                 </tr>
                             @endforeach
