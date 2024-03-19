@@ -54,7 +54,7 @@
                             </div>
                             <div class="col-auto">
                                 <div class="progress-circle progress-sm" data-progress="{{ $home_data['total_task']['percentage'] }}" data-text="{{ $home_data['total_task']['percentage'] }}%" data-color="info"></div>
-                            </div>
+                            </div> 
                         </div>
                     </div>
                 </div>
