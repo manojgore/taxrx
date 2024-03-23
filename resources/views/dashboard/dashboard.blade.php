@@ -43,7 +43,7 @@
                             editable: true,
                             dayMaxEvents: true,
                             handleWindowResize: true,
-                            {{--events: {!! json_encode($arrEvents) !!},--}}
+                            {{--events: {!! json_encode($arrEvents) !!},--}} 
                             events: data,
                             locale: '{{basename(App::getLocale())}}',
                             dayClick: function (e) {

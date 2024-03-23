@@ -19,7 +19,7 @@
                         </div>
                         <div class="col-6 text-center">
                             <span class="d-block h4 mb-0">{{ $user->projects->count() }}</span>
-                            <span class="d-block text-sm text-muted">{{__('Projects')}}</span>
+                            <span class="d-block text-sm text-muted">{{__('Projects')}}</span> 
                         </div>
                     </div>
                 </div>
