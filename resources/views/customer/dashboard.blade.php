@@ -166,7 +166,7 @@
                                             <div class="d-flex justify-content-between text-xs text-muted text-end mt-1">
                                                 <div>
                                                     <span class="font-weight-bold text-warning">{{__('Due')}}</span>
-                                                </div>
+                                                </div> 
                                                 <div>
                                                     {{$invoiceChartData['progressData']['totalInvoice'] .'/'.$invoiceChartData['progressData']['totalDueInvoice']}}
                                                 </div>
