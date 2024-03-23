@@ -32,7 +32,7 @@
                                 <th> {{__('Rate %')}}</th>
                                 <th width="10%"> {{__('Action')}}</th>
                             </tr>
-                            </thead>
+                            </thead> 
 
                             <tbody>
                             @foreach ($taxes as $taxe)
