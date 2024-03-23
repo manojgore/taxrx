@@ -83,7 +83,7 @@
         <div class="col-md-12">
             <div class="card pb-0">
                 <div class="card-body">
-                    <h5 class="card-title">{{__('Company Info')}}</h5>
+                    <h5 class="card-title">{{__('Company Info')}}</h5> 
 
                     <div class="row">
                         @php
