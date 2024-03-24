@@ -16,7 +16,7 @@
             @error('rate')
             <small class="invalid-rate" role="alert">
                 <strong class="text-danger">{{ $message }}</strong>
-            </small>
+            </small> 
             @enderror
         </div>
     </div>
