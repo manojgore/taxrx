@@ -44,7 +44,7 @@
                             <tr>
                                 <th> {{__('Date')}}</th>
                                 <th> {{__('Amount')}}</th>
-                                <th> {{__('Category')}}</th>
+                                <th> {{__('Category')}}</th> 
                                 <th> {{__('Description')}}</th>
                             </tr>
                             </thead> 
