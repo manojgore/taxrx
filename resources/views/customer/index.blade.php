@@ -66,7 +66,7 @@ $profile=\App\Models\Utility::get_file('uploads/avatar/');
                                         @can('show customer')
                                             <a href="{{ route('customer.show',\Crypt::encrypt($customer['id'])) }}" class="btn btn-outline-primary">
                                                 {{ AUth::user()->customerNumberFormat($customer['customer_id']) }}
-                                            </a>
+                                            </a> 
                                         @else
                                             <a href="#" class="btn btn-outline-primary">
                                                 {{ AUth::user()->customerNumberFormat($customer['customer_id']) }}
