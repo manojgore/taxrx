@@ -10,7 +10,7 @@
         </span>
             @enderror
         </div> 
-    </div>
+    </div> 
     <div class="col-md-12 px-0">
         <input type="submit" value="{{__('Create')}}" class="btn-create badge-blue">
         <input type="button" value="{{__('Cancel')}}" class="btn-create bg-gray" data-dismiss="modal">
