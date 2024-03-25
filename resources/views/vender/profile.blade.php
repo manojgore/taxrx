@@ -11,7 +11,7 @@ $profile=\App\Models\Utility::get_file('uploads/avatar/');
     <div class="row">
         <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12">
             <div class="card profile-card">
-                <div class="icon-user avatar rounded-circle">
+                <div class="icon-user avatar rounded-circle"> 
                     <img alt="" src="{{(!empty($userDetail->avatar))? $profile.'/'.$userDetail->avatar : $profile.'/avatar.png'}}" class="">
                 </div>
                 <h4 class="h4 mb-0 mt-2"> {{$userDetail->name}}</h4>
