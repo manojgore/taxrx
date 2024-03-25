@@ -7,7 +7,7 @@
             @error('name')
             <small class="invalid-name" role="alert">
                 <strong class="text-danger">{{ $message }}</strong>
-            </small> 
+            </small>  
             @enderror
         </div>
         <div class="form-group col-md-6">
