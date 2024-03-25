@@ -8,7 +8,7 @@
                 <i class="ti ti-download"></i> {{__('Download')}}
             </a>
         </div>
-        <div class="col-md-12">
+        <div class="col-md-12"> 
             {{Form::label('file',__('Select CSV File'),['class'=>'form-label'])}}
             <div class="choose-file form-group">
                 <label for="file" class="form-label">
