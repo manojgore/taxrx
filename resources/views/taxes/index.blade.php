@@ -38,7 +38,7 @@
                             @foreach ($taxes as $taxe)
                                 <tr class="font-style">
                                     <td>{{ $taxe->name }}</td> 
-                                    <td>{{ $taxe->rate }}</td>
+                                    <td>{{ $taxe->rate }}</td> 
                                     <td class="Action">
                                         <span>
                                         @can('edit constant tax')
