@@ -26,7 +26,7 @@
                 <div class="card-body table-border-style">
                     <div class="table-responsive">
                         <table class="table datatable">
-                            <thead>
+                            <thead> 
                             <tr>
                                 <th> {{__('Tax Name')}}</th>
                                 <th> {{__('Rate %')}}</th>
