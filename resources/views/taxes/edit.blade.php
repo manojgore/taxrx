@@ -15,7 +15,7 @@
             {{ Form::number('rate', null, array('class' => 'form-control','required'=>'required','step'=>'0.01')) }}
             @error('rate')
             <small class="invalid-rate" role="alert">
-                <strong class="text-danger">{{ $message }}</strong> 
+                <strong class="text-danger">{{ $message }}</strong>  
             </small>
             @enderror
         </div>
