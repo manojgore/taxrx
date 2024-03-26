@@ -23,7 +23,7 @@
         </div>
         <div class="col-9">
             <div class="card">
-                <div class="card-body table-border-style">
+                <div class="card-body table-border-style"> 
                     <div class="table-responsive">
                         <table class="table datatable">
                             <thead> 
