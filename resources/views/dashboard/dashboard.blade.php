@@ -93,7 +93,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="row">
-                    <div class="col-xxl-6">
+                    <div class="col-xxl-6"> 
                         <div class="card">
                             <div class="card-header">
                                 <h4>{{__('Mark Attandance')}}</h4>
