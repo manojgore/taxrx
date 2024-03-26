@@ -119,7 +119,7 @@
                             <div class="p-4"> 
                                 <p class="card-text mb-0">{{__('Overdue')}}</p>
                                 <h6 class="report-text mb-3">{{\Auth::user()->priceFormat($customer->customerOverdue($customer['id']))}}</h6>
-                            </div>
+                            </div> 
                         </div>
                     </div>
                 </div>
