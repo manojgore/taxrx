@@ -379,7 +379,7 @@
 
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> 
                                         <div class="col-md-6 col-sm-6 my-3 my-sm-0">
                                             <div class="d-flex align-items-start mb-3">
                                                 <div class="theme-avtar bg-info">
