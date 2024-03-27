@@ -25,7 +25,7 @@ $profile=\App\Models\Utility::get_file('uploads/avatar/');
     <li class="breadcrumb-item">{{__('Customer')}}</li>
 @endsection
 
-@section('action-btn')
+@section('action-btn') 
     <div class="float-end">
         <a href="#" data-size="md"  data-bs-toggle="tooltip" title="{{__('Import')}}" data-url="{{ route('customer.file.import') }}" data-ajax-popup="true" data-title="{{__('Import customer CSV file')}}" class="btn btn-sm btn-primary">
             <i class="ti ti-file-import"></i>
