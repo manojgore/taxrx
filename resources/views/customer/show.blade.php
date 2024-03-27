@@ -154,7 +154,7 @@
                                         </a>
                                     </td>
                                     <td>{{ Auth::user()->dateFormat($proposal->issue_date) }}</td>
-                                    <td>{{ Auth::user()->priceFormat($proposal->getTotal()) }}</td>
+                                    <td>{{ Auth::user()->priceFormat($proposal->getTotal()) }}</td> 
                                     <td>
                                         @if($proposal->status == 0)
                                             <span class="badge bg-primary p-2 px-3 rounded">{{ __(\App\Models\Proposal::$statues[$proposal->status]) }}</span>
