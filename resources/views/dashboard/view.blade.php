@@ -3,7 +3,7 @@
         <div class="col-lg-3 col-sm-6">
             <div class="card hover-shadow-lg">
                 <div class="card-body text-center">
-                    <div class="avatar-parent-child">
+                    <div class="avatar-parent-child"> 
                         <img {{ $user->img_avatar }} class="avatar rounded-circle avatar-lg">
                     </div>
                     <h5 class="h6 mt-4 mb-0">
