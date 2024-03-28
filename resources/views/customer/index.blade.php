@@ -7,7 +7,7 @@ $profile=\App\Models\Utility::get_file('uploads/avatar/');
     <script>
         $(document).on('click', '#billing_data', function () {
             $("[name='shipping_name']").val($("[name='billing_name']").val());
-            $("[name='shipping_country']").val($("[name='billing_country']").val());
+            $("[name='shipping_country']").val($("[name='billing_country']").val()); 
             $("[name='shipping_state']").val($("[name='billing_state']").val());
             $("[name='shipping_city']").val($("[name='billing_city']").val());
             $("[name='shipping_phone']").val($("[name='billing_phone']").val());
