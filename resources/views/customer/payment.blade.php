@@ -17,7 +17,7 @@
                                     {{ Form::label('date', __('Date'),['class'=>'text-type']) }}
                                     {{ Form::text('date', isset($_GET['date'])?$_GET['date']:null, array('class' => 'form-control datepicker-range')) }}
                                 </div>
-                            </div>
+                            </div> 
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
                             <div class="all-select-box">
