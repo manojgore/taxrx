@@ -9,7 +9,7 @@
         <div class="bg-neutral rounded-pill d-inline-block">
             <div class="input-group input-group-sm input-group-merge input-group-flush">
                 <div class="input-group-prepend">
-                    <span class="input-group-text bg-transparent"><i class="ti ti-search"></i></span>
+                    <span class="input-group-text bg-transparent"><i class="ti ti-search"></i></span> 
                 </div>
                 <input type="text" id="keyword" class="form-control form-control-flush" placeholder="{{__('Search by Name or skill')}}">
             </div>
