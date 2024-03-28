@@ -103,7 +103,7 @@
                                                 </div>
                                                 <div> 
                                                     {{$invoiceChartData['progressData']['totalInvoice'] .'/'.$invoiceChartData['progressData']['totalUnpaidInvoice']}}
-                                                </div>
+                                                </div> 
                                             </div>
                                         </div>
                                     </div>
