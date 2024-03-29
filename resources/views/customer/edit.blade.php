@@ -129,7 +129,7 @@
             </div>
 
 
-            <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="col-lg-6 col-md-6 col-sm-6"> 
                 <div class="form-group">
                     {{Form::label('shipping_city',__('City'),array('class'=>'form-label')) }}
                     {{Form::text('shipping_city',null,array('class'=>'form-control'))}}
