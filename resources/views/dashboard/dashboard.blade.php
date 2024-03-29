@@ -486,7 +486,7 @@
                                             </tbody>
                                         </table>
                                     @else
-                                        <div class="p-2">
+                                        <div class="p-2"> 
                                             {{__('No meeting scheduled yet.')}}
                                         </div>
                                     @endif
