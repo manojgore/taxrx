@@ -77,7 +77,7 @@
             <div class="col-xl-3 col-md-6">
                 <div class="card card-stats">
                     <div class="card-body">
-                        <div class="row">
+                        <div class="row"> 
                             <div class="col">
                                 <h6 class="text-muted mb-1">{{__('Total Users')}}</h6>
                                 <span class="h3 font-weight-bold mb-0 ">{{ $home_data['total_user'] }}</span>
