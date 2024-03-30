@@ -50,7 +50,7 @@ $profile=\App\Models\Utility::get_file('uploads/avatar/');
                         <table class="table datatable">
                             <thead>
                             <tr>
-                                <th>#</th>
+                                <th>#</th> 
                                 <th> {{__('Name')}}</th>
                                 <th> {{__('Contact')}}</th>
                                 <th> {{__('Email')}}</th>
