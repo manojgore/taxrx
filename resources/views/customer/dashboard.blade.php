@@ -154,7 +154,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col"> 
                             <div class="list-group list-group-flush">
                                 <a href="#" class="list-group-item list-group-item-action">
                                     <div class="d-flex align-items-center justify-content-between">
