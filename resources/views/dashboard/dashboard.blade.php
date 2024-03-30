@@ -425,7 +425,7 @@
                         <div class="card">
                             <div class="card-header">
 
-                                <h5>{{__('Announcement List')}}</h5>
+                                <h5>{{__('Announcement List')}}</h5> 
                             </div>
                             <div class="card-body" style="min-height: 295px;">
                                 <div class="table-responsive">
