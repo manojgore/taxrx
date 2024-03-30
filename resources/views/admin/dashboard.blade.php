@@ -57,7 +57,7 @@
                             </div> 
                         </div>
                     </div>
-                </div>
+                </div> 
             </div>
             <div class="col-xl-3 col-md-6">
                 <div class="card card-stats">
