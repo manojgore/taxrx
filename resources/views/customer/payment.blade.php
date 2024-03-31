@@ -8,7 +8,7 @@
     <div class="row">
         <div class="col-md-12"> 
             <div class="card">
-                <div class="card-body table-border-style">
+                <div class="card-body table-border-style"> 
                     <div class="row d-flex justify-content-end mt-2">
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
                             {{ Form::open(array('route' => array('customer.payment'),'method' => 'GET','id'=>'frm_submit')) }}
