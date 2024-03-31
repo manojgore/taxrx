@@ -156,7 +156,7 @@
                 <div class="form-group">
                     {{Form::label('shipping_zip',__('Zip Code'),array('class'=>'form-label')) }}
                     {{Form::text('shipping_zip',null,array('class'=>'form-control'))}}
-                </div>
+                </div> 
             </div>
 
         </div> 
