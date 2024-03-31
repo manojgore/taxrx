@@ -405,7 +405,7 @@
                         btn.closest('.todo-member').remove();
                     },
                     error: function (data) {
-                        data = data.responseJSON;
+                        data = data.responseJSON; 
                         if (data.message) {
                             show_toastr('{{__('Error')}}', data.message, 'error');
                         } else {
