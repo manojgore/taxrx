@@ -58,7 +58,7 @@
                                     <td>{{  $payment->description}}</td>
                                 </tr>
                             @endforeach
-                            </tbody>
+                            </tbody> 
                         </table>
                     </div>
                 </div>

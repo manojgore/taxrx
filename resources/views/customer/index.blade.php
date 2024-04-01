@@ -73,7 +73,7 @@ $profile=\App\Models\Utility::get_file('uploads/avatar/');
                                             </a>  
                                         @endcan
                                     </td>
-                                    <td class="font-style">{{$customer['name']}}</td> 
+                                    <td class="font-style">{{$customer['name']}}</td>  
                                     <td>{{$customer['contact']}}</td>
                                     <td>{{$customer['email']}}</td>
                                     <td>{{\Auth::user()->priceFormat($customer['balance'])}}</td>
