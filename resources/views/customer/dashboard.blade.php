@@ -144,7 +144,7 @@
                                             <div class="d-flex justify-content-between text-xs text-muted text-end mt-1">
                                                 <div>
                                                     <span class="font-weight-bold text-info">{{__('Partial Paid')}}</span>
-                                                </div> 
+                                                </div>  
                                                 <div>
                                                     {{$invoiceChartData['progressData']['totalInvoice'] .'/'.$invoiceChartData['progressData']['totalPartialInvoice']}}
                                                 </div>
