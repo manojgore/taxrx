@@ -429,7 +429,7 @@
                             </div>
                             <div class="card-body" style="min-height: 295px;">
                                 <div class="table-responsive">
-                                    @if(count($announcements) > 0)
+                                    @if(count($announcements) > 0) 
                                         <table class="table align-items-center">
                                             <thead>
                                             <tr>
@@ -451,7 +451,7 @@
                                             </tbody>
                                         </table>
                                     @else
-                                        <div class="p-2">
+                                        <div class="p-2"> 
                                             {{__('No accouncement present yet.')}}
                                         </div>
                                     @endif
