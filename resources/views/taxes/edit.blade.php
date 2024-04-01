@@ -6,7 +6,7 @@
             {{ Form::text('name', null, array('class' => 'form-control font-style','required'=>'required')) }}
             @error('name')
             <small class="invalid-name" role="alert">
-                <strong class="text-danger">{{ $message }}</strong>
+                <strong class="text-danger">{{ $message }}</strong> 
             </small>  
             @enderror
         </div>
