@@ -3,7 +3,7 @@
 
     <div class="row">
         <div class="col-12">
-            <div class="form-group">
+            <div class="form-group"> 
                 {{Form::label('name',__('Name'),['class'=>'form-label'])}}
                 {{Form::text('name',null,array('class'=>'form-control','placeholder'=>__('Enter Branch Name')))}}
                 @error('name')
