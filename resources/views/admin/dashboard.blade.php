@@ -413,7 +413,7 @@
                         }
                     }
                 });
-            });
+            }); 
 
             /*Chart*/
             var e = $("#task_overview");
