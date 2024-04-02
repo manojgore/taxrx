@@ -412,7 +412,7 @@
                                                 <div class="ms-2">
                                                     <p class="text-muted text-sm mb-0">{{__('Done Training')}}</p>
                                                     <h4 class="mb-0 text-secondary">{{$doneTraining}}</h4>
-                                                </div>
+                                                </div> 
                                             </div>
                                         </div>
                                     </div>
