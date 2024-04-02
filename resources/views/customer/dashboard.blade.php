@@ -178,7 +178,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card-body">
+                <div class="card-body"> 
                     <h6>{{__('Current year').' - '.date('Y')}}</h6> 
                     <div class="scrollbar-inner">
                         <div id="chart-sales" height="300"></div>
