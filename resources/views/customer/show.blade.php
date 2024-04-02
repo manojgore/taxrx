@@ -44,7 +44,7 @@
         <div class="col-md-4 col-lg-4 col-xl-4">
             <div class="card customer-detail-box customer_card">
                 <div class="card-body">
-                    <h5 class="card-title">{{__('Customer Info')}}</h5>
+                    <h5 class="card-title">{{__('Customer Info')}}</h5> 
                     <p class="card-text mb-0">{{$customer['name']}}</p>
                     <p class="card-text mb-0">{{$customer['email']}}</p>
                     <p class="card-text mb-0">{{$customer['contact']}}</p>
