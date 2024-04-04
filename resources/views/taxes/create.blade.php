@@ -18,7 +18,7 @@
                 <strong class="text-danger">{{ $message }}</strong> 
             </small> 
             @enderror
-        </div>
+        </div> 
     </div> 
 </div>
 <div class="modal-footer">
