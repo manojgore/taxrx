@@ -51,10 +51,10 @@ $profile=\App\Models\Utility::get_file('uploads/avatar/');
                                             <span class="invalid-name" role="alert">
                                                                 <strong class="text-danger">{{ $message }}</strong>
                                                             </span>
-                                            @enderror
+                                            @enderror 
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-6"> 
                                         {{Form::label('email',__('Email'),array('class'=>'form-label'))}}
                                         {{Form::text('email',null,array('class'=>'form-control','placeholder'=>__('Enter User Email')))}}
                                         @error('email')
