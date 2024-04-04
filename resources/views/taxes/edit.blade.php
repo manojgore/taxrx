@@ -4,8 +4,8 @@
         <div class="form-group col-md-6">
             {{ Form::label('name', __('Tax Rate Name'),['class'=>'form-label']) }} 
             {{ Form::text('name', null, array('class' => 'form-control font-style','required'=>'required')) }}
-            @error('name')
-            <small class="invalid-name" role="alert">
+            @error('name') 
+            <small class="invalid-name" role="alert"> 
                 <strong class="text-danger">{{ $message }}</strong> 
             </small>  
             @enderror
