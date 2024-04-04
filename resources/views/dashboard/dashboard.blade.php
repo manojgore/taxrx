@@ -390,7 +390,7 @@
                                                     <h4 class="mb-0 text-primary">{{$countTrainer}}</h4>
 
                                                 </div>
-                                            </div>
+                                            </div> 
                                         </div>
                                         <div class="col-md-6 col-sm-6">
                                             <div class="d-flex align-items-start mb-3">
