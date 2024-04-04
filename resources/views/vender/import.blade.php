@@ -5,14 +5,14 @@
         <div class="col-md-12 mb-6">
             {{Form::label('file',__('Download sample vendor CSV file'),['class'=>'form-label'])}}
             <a href="{{asset(Storage::url('uploads/sample')).'/sample-vendor.csv'}}" class="btn btn-sm btn-primary">
-                <i class="ti ti-download"></i> {{__('Download')}}
+                <i class="ti ti-download"></i> {{__('Download')}} 
             </a>
         </div>
         <div class="col-md-12"> 
             {{Form::label('file',__('Select CSV File'),['class'=>'form-label'])}}
             <div class="choose-file form-group">
                 <label for="file" class="form-label">
-                    <div>{{__('Choose file here')}}</div>
+                    <div>{{__('Choose file here')}}</div> 
                     <input type="file" class="form-control" name="file" id="file" data-filename="upload_file" required>
                 </label>
                 <p class="upload_file"></p> 
