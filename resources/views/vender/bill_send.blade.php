@@ -6,10 +6,10 @@
             {{ Form::text('email', '', array('class' => 'form-control','required'=>'required')) }}
             @error('email')
             <span class="invalid-email" role="alert">
-            <strong class="text-danger">{{ $message }}</strong> 
+            <strong class="text-danger">{{ $message }}</strong>  
         </span>
-            @enderror
-        </div>  
+            @enderror 
+        </div>   
     </div> 
     <div class="col-md-12 px-0">
         <input type="submit" value="{{__('Create')}}" class="btn-create badge-blue">
