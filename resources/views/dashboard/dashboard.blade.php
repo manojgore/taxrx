@@ -396,7 +396,7 @@
                                             <div class="d-flex align-items-start mb-3">
                                                 <div class="theme-avtar bg-danger">
                                                     <i class="ti ti-user-check"></i>
-                                                </div>
+                                                </div> 
                                                 <div class="ms-2">
                                                     <p class="text-muted text-sm mb-0">{{__('Active Training')}}</p>
                                                     <h4 class="mb-0 text-danger">{{$onGoingTraining}}</h4>
