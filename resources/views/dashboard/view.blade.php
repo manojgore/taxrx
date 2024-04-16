@@ -2,7 +2,7 @@
     @foreach($users as $user)
         <div class="col-lg-3 col-sm-6">
             <div class="card hover-shadow-lg">
-                <div class="card-body text-center">
+                <div class="card-body text-center"> 
                     <div class="avatar-parent-child"> 
                         <img {{ $user->img_avatar }} class="avatar rounded-circle avatar-lg"> 
                     </div>
@@ -11,7 +11,7 @@
                     </h5>
                     <p class="d-block text-sm text-muted mb-3">{{ $user->email }}</p> 
                 </div> 
-                <div class="card-body border-top">
+                <div class="card-body border-top"> 
                     <div class="row justify-content-between align-items-center">
                         <div class="col-6 text-center">
                             <span class="d-block h4 mb-0">{{ count($user->contacts) }}</span>
