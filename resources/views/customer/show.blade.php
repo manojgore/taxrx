@@ -86,7 +86,7 @@
                     <h5 class="card-title">{{__('Company Info')}}</h5> 
 
                     <div class="row"> 
-                        @php
+                        @php 
                             $totalInvoiceSum=$customer->customerTotalInvoiceSum($customer['id']);
                             $totalInvoice=$customer->customerTotalInvoice($customer['id']);
                             $averageSale=($totalInvoiceSum!=0)?$totalInvoiceSum/$totalInvoice:0;
