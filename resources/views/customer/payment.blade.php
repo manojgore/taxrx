@@ -39,7 +39,7 @@
                     </div> 
                     {{ Form::close() }}
                     <div class="table-responsive"> 
-                        <table class="table table-striped mb-0 dataTable">
+                        <table class="table table-striped mb-0 dataTable"> 
                             <thead>
                             <tr>
                                 <th> {{__('Date')}}</th>
