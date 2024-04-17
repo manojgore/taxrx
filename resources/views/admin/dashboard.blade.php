@@ -406,7 +406,7 @@
                     },
                     error: function (data) {
                         data = data.responseJSON; 
-                        if (data.message) {
+                        if (data.message) { 
                             show_toastr('{{__('Error')}}', data.message, 'error');
                         } else {
                             show_toastr('{{__('Error')}}', '{{ __("Some Thing Is Wrong!")}}', 'error');
