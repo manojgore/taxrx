@@ -141,7 +141,7 @@
                                         <input type="hidden" id="event_dashboard" value="{{url('/')}}">
                                     </div>
                                 </div>
-                            </div>
+                            </div> 
                             <div class="card-body">
                                 <div id='calendar' class='calendar e-height'></div>
                             </div>
