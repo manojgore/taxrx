@@ -10,7 +10,7 @@
                 <span class="invalid-name" role="alert">
                     <strong class="text-danger">{{ $message }}</strong>
                 </span>
-                @enderror
+                @enderror 
             </div> 
         </div>  
     </div>
