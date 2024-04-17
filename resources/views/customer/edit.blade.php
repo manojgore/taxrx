@@ -101,7 +101,7 @@
     @if(App\Models\Utility::getValByName('shipping_display')=='on')
         <div class="col-md-12 text-end">
             <input type="button" id="billing_data" value="{{__('Shipping Same As Billing')}}" class="btn btn-primary">
-        </div>
+        </div> 
         <h6 class="sub-title">{{__('Shipping Address')}}</h6>
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6">
