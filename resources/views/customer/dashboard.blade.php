@@ -183,7 +183,7 @@
                     <div class="scrollbar-inner">
                         <div id="chart-sales" height="300"></div>
                     </div>
-                </div>
+                </div> 
             </div>
         </div>
 @endsection
