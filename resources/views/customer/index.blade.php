@@ -97,7 +97,7 @@ $profile=\App\Models\Utility::get_file('uploads/avatar/');
                                                             <i class="ti ti-pencil text-white"></i>
                                                         </a>
                                                     </div>
-                                                @endcan
+                                                @endcan 
                                                 @can('delete customer')
                                                     <div class="action-btn bg-danger ms-2">
                                                         {!! Form::open(['method' => 'DELETE', 'route' => ['customer.destroy', $customer['id']],'id'=>'delete-form-'.$customer['id']]) !!}
