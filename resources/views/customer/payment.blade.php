@@ -51,7 +51,7 @@
                             <tbody> 
                             @foreach ($payments as $payment)
 
-                                <tr>
+                                <tr> 
                                     <td>{{  Auth::user()->dateFormat($payment->date)}}</td>
                                     <td>{{  Auth::user()->priceFormat($payment->amount)}}</td>
                                     <td>{{  $payment->category}}</td>
