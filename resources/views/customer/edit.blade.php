@@ -107,7 +107,7 @@
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="form-group">
                     {{Form::label('shipping_name',__('Name'),array('class'=>'form-label')) }}
-                    {{Form::text('shipping_name',null,array('class'=>'form-control'))}}
+                    {{Form::text('shipping_name',null,array('class'=>'form-control'))}} 
 
                 </div>
             </div>  
