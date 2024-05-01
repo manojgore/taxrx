@@ -93,7 +93,7 @@
                 {{Form::label('billing_zip',__('Zip Code'),array('class'=>'form-label')) }}
                 {{Form::text('billing_zip',null,array('class'=>'form-control'))}}
 
-            </div>
+            </div> 
         </div>
 
     </div>
