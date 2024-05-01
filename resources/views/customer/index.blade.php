@@ -113,7 +113,7 @@ $profile=\App\Models\Utility::get_file('uploads/avatar/');
                             </tbody>
                         </table>
                     </div>
-                </div>
+                </div> 
             </div>
         </div>
     </div>
