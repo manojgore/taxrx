@@ -398,7 +398,7 @@
                 var btn = $(this);
                 $.ajax({
                     url: $(this).attr('data-url'),
-                    type: 'DELETE',
+                    type: 'DELETE', 
                     dataType: 'JSON',
                     success: function (data) {
                         show_toastr('{{__('Success')}}', '{{ __("Todo Deleted Successfully!")}}', 'success');
