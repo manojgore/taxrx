@@ -174,7 +174,7 @@
                                         @empty
                                             <tr>
                                                 <td colspan="4">
-                                                    <div class="text-center">
+                                                    <div class="text-center"> 
                                                         <h6>{{__('There is no Announcement List')}}</h6>
                                                     </div>
                                                 </td>
