@@ -399,7 +399,7 @@
                 $.ajax({
                     url: $(this).attr('data-url'),
                     type: 'DELETE', 
-                    dataType: 'JSON',
+                    dataType: 'JSON', 
                     success: function (data) {
                         show_toastr('{{__('Success')}}', '{{ __("Todo Deleted Successfully!")}}', 'success');
                         btn.closest('.todo-member').remove();
