@@ -173,7 +173,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </a> 
+                                </a>  
                             </div>
                         </div>
                     </div>
