@@ -84,7 +84,7 @@
                 {{Form::label('billing_country',__('Country'),array('class'=>'form-label')) }}
                 {{Form::text('billing_country',null,array('class'=>'form-control'))}}
 
-            </div>
+            </div> 
         </div> 
 
 
