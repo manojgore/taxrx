@@ -33,7 +33,7 @@
                             </a>
                             <a href="{{route('customer.payment')}}" class="reset-btn" data-toggle="tooltip" data-original-title="{{__('Reset')}}">
                                 <span class="btn-inner--icon"><i class="ti ti-trash-restore-alt"></i></span>
-                            </a>
+                            </a> 
 
                         </div>
                     </div> 
