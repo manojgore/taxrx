@@ -22,7 +22,7 @@
                             <span class="d-block text-sm text-muted">{{__('Projects')}}</span> 
                         </div>
                     </div>
-                </div> 
+                </div>  
             </div> 
         </div> 
     @endforeach
