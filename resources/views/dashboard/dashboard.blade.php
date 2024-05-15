@@ -162,7 +162,7 @@
                                             <th>{{__('End Date')}}</th>
                                             <th>{{__('description')}}</th>
                                         </tr>
-                                        </thead>
+                                        </thead> 
                                         <tbody>
                                         @forelse($announcements as $announcement)
                                             <tr>
