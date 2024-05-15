@@ -100,7 +100,7 @@
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6"> 
-                            <div class="p-4">
+                            <div class="p-4"> 
                                 <p class="card-text mb-0">{{__('Date of Creation')}}</p>
                                 <h6 class="report-text mb-3">{{\Auth::user()->dateFormat($customer['created_at'])}}</h6>
                                 <p class="card-text mb-0">{{__('Quantity of Invoice')}}</p>

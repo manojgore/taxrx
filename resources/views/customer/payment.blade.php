@@ -36,7 +36,7 @@
                             </a> 
 
                         </div>
-                    </div> 
+                    </div>  
                     {{ Form::close() }}
                     <div class="table-responsive"> 
                         <table class="table table-striped mb-0 dataTable"> 
