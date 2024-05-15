@@ -76,7 +76,7 @@
                 {{Form::label('billing_state',__('State'),array('class'=>'form-label')) }}
                 {{Form::text('billing_state',null,array('class'=>'form-control'))}}
 
-            </div>  
+            </div>   
         </div>
 
         <div class="col-lg-6 col-md-6 col-sm-6">
@@ -88,7 +88,7 @@
         </div> 
 
 
-        <div class="col-lg-6 col-md-6 col-sm-6">
+        <div class="col-lg-6 col-md-6 col-sm-6"> 
             <div class="form-group">
                 {{Form::label('billing_zip',__('Zip Code'),array('class'=>'form-label')) }}
                 {{Form::text('billing_zip',null,array('class'=>'form-control'))}}
