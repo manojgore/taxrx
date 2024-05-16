@@ -91,7 +91,7 @@
                             $totalInvoice=$customer->customerTotalInvoice($customer['id']);
                             $averageSale=($totalInvoiceSum!=0)?$totalInvoiceSum/$totalInvoice:0;
                         @endphp
-                        <div class="col-md-3 col-sm-6"> 
+                        <div class="col-md-3 col-sm-6">  
                             <div class="p-4">
                                 <p class="card-text mb-0">{{__('Customer Id')}}</p>
                                 <h6 class="report-text mb-3">{{AUth::user()->customerNumberFormat($customer['customer_id'])}}</h6>
