@@ -172,7 +172,7 @@
                                                 <td>{{ $announcement->description }}</td>
                                             </tr>
                                         @empty
-                                            <tr>
+                                            <tr> 
                                                 <td colspan="4">
                                                     <div class="text-center"> 
                                                         <h6>{{__('There is no Announcement List')}}</h6>
