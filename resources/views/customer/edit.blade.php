@@ -80,7 +80,7 @@
         </div>
 
         <div class="col-lg-6 col-md-6 col-sm-6">
-            <div class="form-group">
+            <div class="form-group"> 
                 {{Form::label('billing_country',__('Country'),array('class'=>'form-label')) }}
                 {{Form::text('billing_country',null,array('class'=>'form-control'))}}
 

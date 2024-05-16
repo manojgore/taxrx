@@ -170,7 +170,7 @@
                                                 <div>
                                                     {{$invoiceChartData['progressData']['totalInvoice'] .'/'.$invoiceChartData['progressData']['totalDueInvoice']}}
                                                 </div>
-                                            </div>
+                                            </div> 
                                         </div>
                                     </div>
                                 </a>  
