@@ -35,7 +35,7 @@
                                 <span class="btn-inner--icon"><i class="ti ti-trash-restore-alt"></i></span>
                             </a> 
 
-                        </div>
+                        </div> 
                     </div>  
                     {{ Form::close() }}
                     <div class="table-responsive"> 
