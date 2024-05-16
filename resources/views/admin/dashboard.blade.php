@@ -372,7 +372,7 @@
                             show_toastr('{{__('Error')}}', data.message, 'error');
                         }
                     });
-                } else {
+                } else { 
                     show_toastr('{{__('Error')}}', '{{ __("Please write todo title!")}}', 'error');
                 }
             });
