@@ -79,7 +79,7 @@ $profile=\App\Models\Utility::get_file('uploads/avatar/');
                                     <td>{{\Auth::user()->priceFormat($customer['balance'])}}</td>
                                     <td>{{ (!empty($customer->last_login_at)) ? $customer->last_login_at : '-' }}</td>
                                     <td class="Action"> 
-                                        <span> 
+                                        <span>  
                                         @if($customer['is_active']==0)
                                                 <i class="ti ti-lock" title="Inactive"></i>
                                             @else
