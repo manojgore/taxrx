@@ -6,7 +6,7 @@
                     <div class="avatar-parent-child"> 
                         <img {{ $user->img_avatar }} class="avatar rounded-circle avatar-lg"> 
                     </div>
-                    <h5 class="h6 mt-4 mb-0"> 
+                    <h5 class="h6 mt-4 mb-0">  
                         <p>{{ $user->name }}</p> 
                     </h5>
                     <p class="d-block text-sm text-muted mb-3">{{ $user->email }}</p> 
