@@ -98,7 +98,7 @@
                                 <p class="card-text mb-0">{{__('Total Sum of Invoices')}}</p>
                                 <h6 class="report-text mb-0">{{\Auth::user()->priceFormat($totalInvoiceSum)}}</h6>
                             </div>
-                        </div>
+                        </div> 
                         <div class="col-md-3 col-sm-6"> 
                             <div class="p-4"> 
                                 <p class="card-text mb-0">{{__('Date of Creation')}}</p>
