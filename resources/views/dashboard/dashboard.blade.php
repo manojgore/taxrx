@@ -163,7 +163,7 @@
                                             <th>{{__('description')}}</th>
                                         </tr>
                                         </thead> 
-                                        <tbody>
+                                        <tbody> 
                                         @forelse($announcements as $announcement)
                                             <tr>
                                                 <td>{{ $announcement->title }}</td>
