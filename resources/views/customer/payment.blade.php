@@ -25,7 +25,7 @@
                                     {{ Form::label('category', __('Category'),['class'=>'text-type']) }}
                                     {{ Form::select('category',  [''=>'All']+$category,isset($_GET['category'])?$_GET['category']:'', array('class' => 'form-control select2')) }}
                                 </div>
-                            </div>
+                            </div> 
                         </div> 
                         <div class="col-auto my-auto">
                             <a href="#" class="apply-btn" onclick="document.getElementById('frm_submit').submit(); return false;" data-toggle="tooltip" data-original-title="{{__('apply')}}">
