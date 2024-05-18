@@ -72,7 +72,7 @@ $profile=\App\Models\Utility::get_file('uploads/avatar/');
                                                 {{ AUth::user()->customerNumberFormat($customer['customer_id']) }}
                                             </a>  
                                         @endcan
-                                    </td>
+                                    </td> 
                                     <td class="font-style">{{$customer['name']}}</td>  
                                     <td>{{$customer['contact']}}</td>
                                     <td>{{$customer['email']}}</td>
