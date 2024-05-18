@@ -374,7 +374,7 @@
                     });
                 } else { 
                     show_toastr('{{__('Error')}}', '{{ __("Please write todo title!")}}', 'error');
-                }
+                } 
             });
             $(document).on("change", "#todolist input[type=checkbox]", function () {
                 $.ajax({
