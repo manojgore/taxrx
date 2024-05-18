@@ -6,7 +6,7 @@
             <div class="form-group"> 
                 {{Form::label('name',__('Name'),['class'=>'form-label'])}}
                 {{Form::text('name',null,array('class'=>'form-control','placeholder'=>__('Enter Branch Name')))}}
-                @error('name')
+                @error('name') 
                 <span class="invalid-name" role="alert">
                     <strong class="text-danger">{{ $message }}</strong> 
                 </span> 
