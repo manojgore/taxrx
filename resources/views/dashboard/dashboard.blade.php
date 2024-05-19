@@ -157,7 +157,7 @@
                                     <table class="table table-striped mb-0">
                                         <thead>
                                         <tr>
-                                            <th>{{__('Title')}}</th> 
+                                            <th>{{__('Title')}}</th>  
                                             <th>{{__('Start Date')}}</th>
                                             <th>{{__('End Date')}}</th>
                                             <th>{{__('description')}}</th>
