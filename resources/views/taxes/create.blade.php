@@ -8,7 +8,7 @@
             <small class="invalid-name" role="alert">
                 <strong class="text-danger">{{ $message }}</strong>
             </small> 
-            @enderror 
+            @enderror  
         </div> 
         <div class="form-group col-md-6">
             {{ Form::label('rate', __('Tax Rate %'),['class'=>'form-label']) }}
